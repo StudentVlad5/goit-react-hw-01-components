@@ -1,0 +1,20 @@
+.description {
+    width: 200px;
+    height: 200px;
+    background: #fff000;
+}
+.avatar {
+  border-radius: 25%;
+}
+.name {
+    font-size: 16px;
+    color: #000;
+}
+.tag {
+    font-size: 12px;
+    color:gray;
+}
+.location {
+    font-size: 12px;
+    color:gray;
+}

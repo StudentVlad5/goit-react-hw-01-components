@@ -1,3 +1,6 @@
+import { Description } from 'components/Description/Description';
+import user from '../user.json';
+
 export const App = () => {
   return (
     <div
@@ -11,6 +14,8 @@ export const App = () => {
       }}
     >
       React homework template
+      <Description user = {user}/>
     </div>
+    
   );
 };
