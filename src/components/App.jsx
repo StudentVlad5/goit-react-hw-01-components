@@ -1,4 +1,4 @@
-import { Description } from 'components/Description/Description';
+import { Profile } from 'components/Profile/Profile';
 import user from '../user.json';
 
 export const App = () => {
@@ -12,7 +12,7 @@ export const App = () => {
         fontSize: 40,
         color: '#010101'
       }}
-    ><Description user = {user}/>
+    ><Profile user = {user}/>
     </div>
     
   );
