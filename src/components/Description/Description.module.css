@@ -1,10 +1,19 @@
 .description {
-    width: 200px;
-    height: 200px;
-    background: #fff000;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
 }
 .avatar {
-  border-radius: 25%;
+    border-radius: 50%;
+    width: 100px;
+}
+.name,
+.tag,
+.location {
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 .name {
     font-size: 16px;
