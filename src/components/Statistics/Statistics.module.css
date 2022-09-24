@@ -5,6 +5,7 @@
     flex-direction: column;
     border: 2px solid grey;
     margin: 10px;
+    margin-right: 24px;
 }
 .title {
     text-transform: uppercase;
