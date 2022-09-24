@@ -15,7 +15,7 @@ export const App = () => {
         color: '#010101'
       }}
     ><Profile user = {user}/>
-    <Statistics data = {data}/>
+    <Statistics title="Upload stats" data = {data} />
     </div>
     
   );

@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 import css from './Statistics.module.css';
 
-export const Statistics = ({data}) => {
+export const Statistics = ({data, title}) => {
         return <section className={css.statistic} key="statistics">
-    <h2 className={css.title}>Upload stats</h2>
+      {checkTitle(title)}
       <ul className={css.statList}>
         {data.map(item => 
       <li className={css.item} key={item.id} style={{backgroundColor : getRandomHexColor(), width: findWidth(data)}}>
@@ -13,7 +13,9 @@ export const Statistics = ({data}) => {
     </ul>
   </section>
 }
-
+function checkTitle(title){
+  if(title){return <h2 className={css.title}>{title}</h2>};
+}
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 }
