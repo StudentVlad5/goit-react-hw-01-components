@@ -32,6 +32,10 @@ return <div className={css.profile}  key={user.username}>
   </div>
 }
 
+function check (num) {
+  return (num > 1000) ?  Math.floor(num / 1000) + "," + (num - Math.floor(num / 1000)*1000): num
+  }
+
 Profile.propTypes = {
 user: PropTypes.shape({
   username: PropTypes.string.isRequired,
@@ -46,6 +50,3 @@ user: PropTypes.shape({
 })
 }
 
-function check (num) {
-return (num > 1000) ?  Math.floor(num / 1000) + "," + (num - Math.floor(num / 1000)*1000): num
-}
