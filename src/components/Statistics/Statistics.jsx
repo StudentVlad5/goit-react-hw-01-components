@@ -25,11 +25,11 @@ return widthOfStat}
 
 
 Statistics.propTypes = {
+        title: PropTypes.string,
         data: PropTypes.array.isRequired,
         item: PropTypes.shape({
         id: PropTypes.string.isRequired,
         label: PropTypes.string.isRequired,
         percentage: PropTypes.number.isRequired,
-
     })
     }
