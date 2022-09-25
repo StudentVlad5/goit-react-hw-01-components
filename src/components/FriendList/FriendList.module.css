@@ -1,3 +1,6 @@
+.sectionFriendList {
+    margin-right: 24px;
+}
 .friendList {
     display: flex;
     flex-direction: column;
