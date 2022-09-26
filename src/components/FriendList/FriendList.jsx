@@ -17,6 +17,7 @@ function checkStatus (isOnline) {
 return isOnline? 'green':'red' 
 }
 
+checkStatus.propTypes = PropTypes.func
 FriendList.propTypes = {
     friend: PropTypes.array.isRequired,
     item: PropTypes.shape({

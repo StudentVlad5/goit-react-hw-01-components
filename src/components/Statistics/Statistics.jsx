@@ -21,6 +21,8 @@ function findWidth(data) {
 const widthOfStat =  300 / data.length + 'px';
 return widthOfStat}
 
+getRandomHexColor.propTypes = PropTypes.func
+findWidth.propTypes = PropTypes.func
 
 Statistics.propTypes = {
         title: PropTypes.string,

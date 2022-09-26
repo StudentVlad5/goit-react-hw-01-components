@@ -37,3 +37,4 @@ item: PropTypes.shape({
     currency: PropTypes.string.isRequired, 
 })
 }
+editType.propTypes = PropTypes.func

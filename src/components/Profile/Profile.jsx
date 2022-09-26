@@ -36,6 +36,8 @@ function check (num) {
   return (num > 1000) ?  Math.floor(num / 1000) + "," + (num - Math.floor(num / 1000)*1000): num
   }
 
+check.propTypes = PropTypes.func
+
 Profile.propTypes = {
 user: PropTypes.shape({
   username: PropTypes.string.isRequired,
